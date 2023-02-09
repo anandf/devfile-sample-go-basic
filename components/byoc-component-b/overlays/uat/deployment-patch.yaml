@@ -16,7 +16,7 @@ spec:
       - env:
         - name: My_STG_ENV
           value: "100"
-        image: quay.io/anjoseph/component-b
+        image: quay.io/anjoseph/component-b:latest
         name: container-image
         resources: {}
 status: {}
